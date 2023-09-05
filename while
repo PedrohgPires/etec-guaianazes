@@ -1,1 +1,99 @@
+import java.util.Scanner;
+public class umaocem {
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int i = 1;
+		  System.out.print("Numeros de 1 ao 100 ");
+		while (i<=100) {
+		  System.out.print(+i);
+			i++;
+		}
+		leia.close();
+	}	
+	}
+
+import java.util.Scanner;
+public class tabuada {
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int i = 1, n, r;
+		  System.out.println("digite um numero para saber a tabuada");
+		  n = leia.nextInt();
+		while (i<=10) {
+			r = i*n;
+		  System.out.println(n+"x"+i+"="+r);
+			i++;
+		}
+		leia.close();
+	}	
+	}
+
+
+
+import java.util.Scanner;
+public class somatoria {
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int i = 2, j;
+		j=1;
+		while (i<100) {
+			j = j+i;
+			System.out.println("Somatoria realizada é"+j);
+			i++;
+		
+		}
+		leia.close();
+	}	
+	}
+
+
+
+import java.util.Scanner;
+public class pares500 {
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int i = 2;
+		  System.out.println("Numeros pares de 1 ao 500 ");
+		while (i<=500) {
+		  System.out.println(i);
+			i = i+2;
+		}
+		leia.close();
+	}	
+	}
+
+
+
+
+import java.util.Scanner;
+
+public class idade {
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        int i = 0;
+        int menorDeIdade = 0;
+        int maiorDeIdade = 0;
+        int idade;
+
+        System.out.println("Digite 10 idades:");
+
+        while (i < 10) {
+            System.out.println("Digite a idade:");
+            idade = leia.nextInt();
+
+            if (idade < 18) {
+                System.out.println("Você é menor de idade");
+                menorDeIdade++;
+            } else {
+                System.out.println("Você é maior de idade");
+                maiorDeIdade++;
+            }
+
+            i++;
+        }
+
+        System.out.println("Total de menores de idade: " + menorDeIdade);
+        System.out.println("Total de maiores de idade: " + maiorDeIdade);
+    }
+}
 
