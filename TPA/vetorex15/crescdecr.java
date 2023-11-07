@@ -54,7 +54,7 @@ public class crescdecr {
 
 	        System.out.println();
 
-	        System.out.print("C decrescente");
+	        System.out.print("C decrescente: ");
 	        for (i = 0; i < c.length; i++) {
 	            System.out.print(c[i] + " ");
 	        }
