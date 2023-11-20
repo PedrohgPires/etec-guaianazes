@@ -6,7 +6,7 @@ public class diferença {
 	        final int TAM = 10;
 	        int a[] = new int[TAM];
 	        int b[] = new int[TAM];
-	        int c[] = new int[TAM];
+	        int c[] = new int[20];
 	        int diferenca = 0;
 
 	        
