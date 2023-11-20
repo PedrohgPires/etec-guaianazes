@@ -9,7 +9,7 @@ public class interseccão {
 			int a[], i, j, b[], inter=0, c[], k;
 			a = new int [TAM];
 			b = new int [TAM];
-			c = new int [TAM];
+			c = new int [20];
 			
 			
 			for (i=0;  i< a.length; i++) {
