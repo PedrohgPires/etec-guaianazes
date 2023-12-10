@@ -1,0 +1,135 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6e7388; 
+    z-index: -1; /* Para enviar para o fundo */
+}
+
+
+
+
+
+
+form{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column; /*ficar em coluna  */
+  margin-top: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+.form-label {
+  margin-bottom: 5px;
+}
+
+form>input:focus {
+  outline: none; /*tira a borda preta ao clicar   */
+}
+
+form>input {
+  width: 500px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+form select {
+  border: none;
+}
+
+
+.container {
+    display: flex;
+    
+  }
+  
+  .left-side {
+    flex: 20%; /* Ocupa 40% do espaço disponível */
+    background-color: #444c5c; /* Cor para o lado esquerdo */
+    height: 90vh;
+    margin-top: 50px;
+    /* Adicione estilos adicionais conforme necessário */
+  }
+  
+  .right-side {
+    flex: 60%; /* Ocupa 60% do espaço disponível */
+    background-color:#f7ebeb; /* Cor para o lado direito */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    /* Adicione estilos adicionais conforme necessário */
+  }
+  .right-side>h1{
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 900;
+  
+  }
+
+  .btn>button{
+    padding: 15px 50px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+.form-select,
+.form-input,
+.servicos-adicionais {
+    margin-bottom: 15px;
+    /* Adicione mais estilos conforme necessário */
+}
+
+
+.form-btn {
+    padding: 15px 50px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    /* Estilos para o botão */
+}
+.side {
+  margin-bottom: 50px; /* Adiciona espaçamento na parte inferior dos lados */
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0px; /* vao mais pra cima */
+  margin-bottom: 10px; /* mais pra baixo */
+  font-family: 'Poppins', sans-serif;
+}
+.right-side > h1 {
+  margin-top: 20px; /* p diminuir a distancia do titulo formulario do topo */
+  font-size: 30px;
+  font-weight: 900;
+}
+.formulario select.form-select {
+  width: 500px;
+}
+
+.teupai img {
+  width: 300px;
+  height: 300px;
+  margin-top: 100px;
+}
+/* Estilo para o botão */
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px; /* Bordas arredondadas */
+  background-color: #f7ebeb; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto */
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+/* Estilizar o botão quando o cursor estiver sobre ele */
